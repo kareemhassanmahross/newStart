@@ -13,12 +13,12 @@ public class HomeAreaCalculatorRedo {
         home.printRoomTwo(room2);
     }
     public Rectangle getDimensions(){
+        Rectangle room = new Rectangle();
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Length = ");
         double length = sc.nextDouble();
         System.out.print("Enter Width = ");
         double width = sc.nextDouble();
-        Rectangle room = new Rectangle();
         room.setLength(length);
         room.setWidth(width);
         return room;
