@@ -3,10 +3,12 @@ package newStart.OOP.constractors;
 public class NewCars {
     public static void main(String[] args) {
         Car car1 = new Car();
+        System.out.println("Number of Cars is " + Car.getCounter());
         Car car2 = new Car();
+        System.out.println("Number of Cars is " + Car.getCounter());
         Car car3 = new Car();
+        System.out.println("Number of Cars is " + Car.getCounter());
         Car car4 = new Car();
-
         System.out.println("Number of Cars is " + Car.getCounter());
     }
 }
