@@ -1,7 +1,7 @@
 package newStart.OOP;
 
 public class Rectangle {
-   private double length ;
+   protected double length ;
    private double width ;
 
    public void setLength(double length){
