@@ -2,15 +2,19 @@ package newStart.OOP.Abstract;
 
 public interface Product {
 
-    public String getName();
+    String getName();
 
-    public void setName(String name);
+    void setName(String name);
 
-    public double getPrice();
+    double getPrice();
 
-    public void setPrice(double price);
+    void setPrice(double price);
 
-    public String getColor();
+    String getColor();
 
-    public void setColor(String color);
+    void setColor(String color);
+
+    default boolean QRcode (String Image){
+        return true;
+    }
 }

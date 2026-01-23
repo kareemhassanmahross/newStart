@@ -6,8 +6,8 @@ public class collectionDemo {
     public static void main(String[] args) {
 //        setDemo();
 //        listDemo();
-        QueueDemo();
-//        mapDemo();
+//        QueueDemo();
+        mapDemo();
     }
     /*
      HashSet => Store data without duplication and without sorting
@@ -156,11 +156,15 @@ public class collectionDemo {
         Qlist.forEach(System.out::println);
     }
     public static void mapDemo(){
-        Map List = new HashMap();
+        Map <String,Integer> List = new HashMap();
         List.put("kareem" , 20);
         List.put("Ahmed" , 10);
         List.put("Diap" , 50);
         List.put("Akram" , 22);
         System.out.println(List);
+        for(var Mlist:List.entrySet()){
+            System.out.println("Your name is "+ Mlist.getKey() + " and Your Age is " + Mlist.getValue());
+        }
+
     }
 }
